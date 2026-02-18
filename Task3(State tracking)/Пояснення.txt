@@ -1,0 +1,4 @@
+EntitiesTracking - клас який зберігає усі entites та додає/видаляє їх. Також може повертати всі активні у геймплею entities.
+Entity - клас entity який у OnDisable видаляється з entities у EntitiesTracking (що дозволяє опрацьовувати як знищені обєкти так і вимкнені) та у OnEnable додається у entities (що дозволяє
+працювати з потрібними entities).
+EntitiesTrackingTest - клас для тесту роботи EntitiesTracking.
